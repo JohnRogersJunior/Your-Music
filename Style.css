@@ -1,0 +1,584 @@
+.nadpis{
+    text-align: center;
+    font-size: 130px;
+    font-family: arial black;
+    margin-top: 0px;
+    margin-bottom: 290px;
+}
+
+.nadpis2{
+    text-align: center;
+    font-size: 130px;
+    font-family: arial black;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+body{
+    background-image: linear-gradient(to right, skyblue, lightgreen);
+}
+
+.text{
+    font-size: 22px;
+    font-family: consolas;
+    color: black;
+}
+
+.back{
+    font-size: 32px;
+    position: absolute;
+    top: 700px;
+    left: 45%;
+    right: 45%;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(172, 235, 247);
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: rgb(115, 247, 218);
+}
+
+audio::-webkit-media-controls-volume-slider{
+    background-color: lightgreen;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: lightgreen;
+  border-radius:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+audio::-webkit-media-controls-play-button {
+    color: black;
+    border-radius: 50%;
+}
+  
+audio::-webkit-media-controls-play-button:hover {
+    background-color: lightgreen;
+}
+
+.center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.song1, .song2, .song3, .song4, .song5, .song6{
+    border: 5px;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.song1{
+    background-color: rgb(100, 240, 154);
+    position: absolute;
+    width: 20%;
+    top: 400px;
+    left: 1%;
+}
+
+.song2{
+    background-color: rgb(100, 223, 240);
+    position: absolute;
+    width: 20%;
+    top: 400px;
+    left: 26.5%;
+}
+
+.song3{
+    background-color: rgb(100, 240, 154);
+    position: absolute;
+    width: 20%;
+    top: 400px;
+    right: 26.5%;
+}
+
+.song4{
+    background-color: rgb(100, 223, 240);
+    position: absolute;
+    width: 20%;
+    top: 400px;
+    right: 1%;
+}
+
+.song5{
+    background-color: rgb(100, 240, 154);
+    position: absolute;
+    width: 20%;
+    top: 50px;
+    top: 650px;
+    left: 1%;
+}
+
+.song6{
+    background-color: rgb(100, 223, 240);
+    position: absolute;
+    width: 20%;
+    top: 50px;
+    top: 650px;
+    left: 26.5%;
+}
+
+.song1:hover, .song2:hover, .song3:hover, .song4:hover, .song5:hover, .song6:hover{
+    background-color: rgb(243, 228, 96);
+    transition-duration: 0.5s;
+}
+
+.filtr{
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px;
+    margin: auto;
+}
+
+.list{
+    font-size: 22px;
+    font-family: consolas;
+    color: black;
+}
+
+.first{
+    position: absolute;
+    left: 10%;
+    top: 250px;
+}
+
+.second{
+    position: absolute;
+    left: 35%;
+    top: 250px;
+}
+
+.third{
+    position: absolute;
+    right: 35%;
+    top: 250px;
+}
+
+.fourth{
+    position: absolute;
+    right: 10%;
+    top: 250px;
+}
+
+@media screen and (max-width: 680px){
+    .list{
+        font-size: 26px;
+    }
+
+    .nadpis{
+        font-size: 70px;
+        margin-bottom: 150px;
+    }
+
+    .nadpis2{
+        font-size: 70px;
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+
+    .first{
+        left: 5%;
+        top: 180px;
+    }
+    
+    .second{
+        left: 30%;
+        top: 180px;
+    }
+    
+    .third{
+        right: 30%;
+        top: 180px;
+    }
+    
+    .fourth{
+        right: 5%;
+        top: 180px;
+    }
+
+    .song1, .song3, .song5{
+        margin-left: none;
+        margin-right: none;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 45px;
+        float: none;
+        clear: both;
+        position: relative;
+        background-color: rgb(100, 223, 240);
+        left: auto;
+        right: auto;
+        top: auto;
+        width: auto;
+    }
+    
+    .song2, .song4, .song6{
+        margin-right: 20px;
+        margin-left: 45px;
+        padding: 10px;
+        text-align: center;
+        float: none;
+        clear:both;
+        position: relative;
+        background-color: rgb(100, 240, 154);
+        left: auto;
+        right: auto;
+        top: auto;
+        width: auto;
+    }
+
+    .song1:hover, .song3:hover, .song5:hover{
+        transition: none;
+        background-color: rgb(100, 223, 240);
+    }
+
+    .song2:hover, .song4:hover, .song6:hover{
+        transition: none;
+        background-color: rgb(100, 240, 154);
+    }
+
+    .back{
+        top: 1040px;
+        left: 35%;
+        right: 35%;
+    }
+
+    .text{
+        font-size: 28px;
+        font-family: consolas;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1465px){
+
+    .nadpis{
+        font-size: 100px;
+        margin-bottom: 150px;
+    }
+
+    .nadpis2{
+        font-size: 100px;
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+
+    .first{
+        left: 10%;
+        top: 200px;
+    }
+    
+    .second{
+        left: 35%;
+        top: 200px;
+    }
+    
+    .third{
+        right: 35%;
+        top: 200px;
+    }
+    
+    .fourth{
+        right: 10%;
+        top: 200px;
+    }
+
+    .song1:hover, .song3:hover, .song5:hover{
+        transition: none;
+        background-color: rgb(100, 240, 154);
+    }
+
+    .song2:hover, .song4:hover, .song6:hover{
+        transition: none;
+        background-color: rgb(100, 223, 240);
+    }
+
+    .song1, .song2, .song3, .song4, .song5, .song6{
+        border: 5px;
+        border: solid;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .song1{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 30%;
+        top: 300px;
+        left: 1%;
+    }
+    
+    .song2{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 30%;
+        top: 300px;
+        left: 33.7%;
+    }
+    
+    .song3{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 30%;
+        top: 300px;
+        right: 1%;
+    }
+    
+    .song4{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 30%;
+        top: 550px;
+        left: 1%;
+    }
+    
+    .song5{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 30%;
+        top: 550px;
+        left: 33.7%;
+    }
+    
+    .song6{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 30%;
+        top: 550px;
+        left: 67.1%;
+        right: 1%;
+    }
+
+    .back{
+        top: 540px;
+        left: 35%;
+        right: 35%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1050px){
+
+    .nadpis{
+        font-size: 100px;
+        margin-bottom: 130px;
+    }
+
+    .nadpis2{
+        font-size: 100px;
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+
+    .first{
+        left: 10%;
+        top: 200px;
+    }
+    
+    .second{
+        left: 35%;
+        top: 200px;
+    }
+    
+    .third{
+        right: 35%;
+        top: 200px;
+    }
+    
+    .fourth{
+        right: 10%;
+        top: 200px;
+    }
+
+    .song1:hover, .song3:hover, .song5:hover{
+        transition: none;
+        background-color: rgb(100, 240, 154);
+    }
+
+    .song2:hover, .song4:hover, .song6:hover{
+        transition: none;
+        background-color: rgb(100, 223, 240);
+    }
+
+    .song1, .song2, .song3, .song4, .song5, .song6{
+        border: 5px;
+        border: solid;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .song1{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 40%;
+        top: 300px;
+        left: 5%;
+    }
+    
+    .song2{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 40%;
+        top: 300px;
+        left: 52%;
+    }
+    
+    .song3{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 40%;
+        top: 550px;
+        left: 5%;
+    }
+    
+    .song4{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 40%;
+        top: 550px;
+        left: 52%;
+    }
+    
+    .song5{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 40%;
+        top: 800px;
+        left: 5%;
+    }
+    
+    .song6{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 40%;
+        top: 800px;
+        left: 67.1%;
+        left: 52%;
+    }
+
+    .back{
+        top: 840px;
+        left: 35%;
+        right: 35%;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 750px){
+
+    .nadpis{
+        font-size: 80px;
+    }
+
+    .nadpis2{
+        font-size: 80px;
+        margin-top: 0px;
+    }
+
+    .first{
+        left: 10%;
+        top: 180px;
+    }
+    
+    .second{
+        left: 35%;
+        top: 180px;
+    }
+    
+    .third{
+        right: 35%;
+        top: 180px;
+    }
+    
+    .fourth{
+        right: 10%;
+        top: 180px;
+    }
+
+    .song1:hover, .song3:hover, .song5:hover{
+        transition: none;
+        background-color: rgb(100, 240, 154);
+    }
+
+    .song2:hover, .song4:hover, .song6:hover{
+        transition: none;
+        background-color: rgb(100, 223, 240);
+    }
+
+    .song1, .song2, .song3, .song4, .song5, .song6{
+        border: 5px;
+        border: solid;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .song1{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 45%;
+        top: 300px;
+        left: 1%;
+    }
+    
+    .song2{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 45%;
+        top: 300px;
+        left: 50%;
+    }
+    
+    .song3{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 45%;
+        top: 550px;
+        left: 1%;
+    }
+    
+    .song4{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 45%;
+        top: 550px;
+        left: 50%;
+    }
+    
+    .song5{
+        background-color: rgb(100, 240, 154);
+        position: absolute;
+        width: 45%;
+        top: 800px;
+        left: 1%;
+    }
+    
+    .song6{
+        background-color: rgb(100, 223, 240);
+        position: absolute;
+        width: 45%;
+        top: 800px;
+        left: 67.1%;
+        left: 50%;
+    }
+
+    .back{
+        top: 840px;
+        left: 35%;
+        right: 35%;
+    }
+}
