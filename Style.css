@@ -171,7 +171,7 @@ a{
     top: 250px;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 680px) and (min-width: 0px){
     .list{
         font-size: 26px;
     }
